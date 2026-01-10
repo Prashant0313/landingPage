@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto' ;
+
+}
+
+.header {
+	background-color: #1F2937;
+	color: #E5E7EB;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 150px;
+	gap: 16px;
+}
+
+.logo {
+	font-size: 24px;
+	color: #F9FAF8;
+	margin-right: auto;
+}
+
+.content {
+	max-width: 35vw;
+}
+
+.hero-section {
+	display: flex;
+	background-color: #1F2937;
+	padding: 50px  150px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.heading {
+	font-size: 48px;
+	color: #F9FAF8;
+	font-weight: 900;
+}
+
+.sub-heading {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+button {
+	background-color: #3882F6;
+  color: #E5E6EB;
+  border: 02px #3882F2 solid;
+  border-radius: 8px;
+  padding: 4px 32px;
+  font-size: 18px;
+  font-weight: 900;
+  margin: 16px 0;
+}
+
+.image-container {
+  border-radius: 15px;
+  border: 2px white solid;
+	object-fit: cover;
+}
+
+.image-container img{
+	border-radius: 15px;
+}
+
+.information{
+	background-color: white;
+	padding: 40px  150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.information-boxes {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px;
+	gap: 38px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.illustration-container {
+	width: 180px;
+	height: 180px;
+	border: 2px #3882F2 solid;
+	border-radius: 15px;
+	margin: 10px;
+}
+
+.info-sub-heading {
+	text-align: center;
+	width: 170px;
+	font-size: 18px;
+/*	color: #464e5b;*/
+	font-weight: 300;
+}
+
+.info-heading {
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 900;
+}
+
+.quate-container {
+	background-color: #E5E7EB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 80px 200px 80px 300px;
+}
+
+.quate {
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.quate-auther {
+	font-weight: 800;
+	font-size: 24px;
+	margin-left: auto;
+}
+
+.CTA-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 200px;
+}
+
+.CTA-content {
+	background-color: #3882F6;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border-radius: 15px;
+	padding: 20px 40px;
+	color: white;
+	gap: 150px;
+}
+
+.CTA-button button {
+	border-color: white;
+}
+
+.footer {
+	background-color: #1F2637;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+	color: #E5E7EB;
+	
+}
