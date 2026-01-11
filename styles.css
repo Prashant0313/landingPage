@@ -149,6 +149,9 @@ button {
 	gap: 150px;
 }
 
+.CTA-button {
+	display: flex;
+}
 .CTA-button button {
 	border-color: white;
 	flex-shrink: 0;
