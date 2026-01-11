@@ -151,6 +151,7 @@ button {
 
 .CTA-button button {
 	border-color: white;
+	flex-shrink: 0;
 }
 
 .footer {
